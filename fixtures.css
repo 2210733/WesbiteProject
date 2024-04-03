@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    background: url(BradfordCity.png);
+    background-position: center;
+}
+
+#header {
+    border-top: 5px solid #333;
+}
+
+#container {
+    display: flex;
+}
+
+#fixture-frame {
+    width: 70%;
+    height: 100vh;
+    border: none;
+}
+header {
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    color: #ffd700; 
+}

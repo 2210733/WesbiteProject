@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(bcfcred.jpg) no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+#header {
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#header h1 {
+    font-family: "Amazone BT";
+}
+
+.section {
+    color: #fff;
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.section h2 {
+    margin-top: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+header {
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    color: #ffd700; 
+}

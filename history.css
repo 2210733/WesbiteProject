@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(bcfcwhite.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #811331;
+}
+
+nav ul li a:hover {
+    color: #ffd700; 
+}
+.container {
+    max-width: 27%;
+    margin: 0 auto;
+    text-align: center;
+    margin-left: 275px;
+}
+h1 {
+    color: #333;
+    margin-bottom: 5px;
+}
+p {
+    margin-bottom: 8px;
+}
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    font-size: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.btn-history {
+    background-color: #FFBF00;
+    color: white;
+}
+.btn-history:hover {
+    background-color: #83650c;
+    ;
+}
+.btn-facts {
+    background-color: #811331;
+    color: white;
+}
+.btn-facts:hover {
+    background-color: #500421;
+}
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-right: 170px;
+}
+
